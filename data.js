@@ -341,7 +341,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "02 tour",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
