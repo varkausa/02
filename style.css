@@ -348,23 +348,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   opacity: 0.9;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
+
   border: 1px solid #000; /* чёрная рамка */
   border-radius: 50%;     /* круглая форма */
-  background: #fff;       /* заливка */
-  position: relative;     /* нужно для ::after */
 }
 
-.link-hotspot::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  background: #000;       /* чёрный цвет */
-  border-radius: 50%;     /* круг */
-  transform: translate(-50%, -50%); /* центрирование */
-}
 
 
 .no-touch .link-hotspot:hover {
