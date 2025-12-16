@@ -348,6 +348,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   opacity: 0.9;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
+  border: 2px solid #000; /* чёрная обводка толщиной 2px */ 
+  border-radius: 50%; /* если нужно сделать круглую кнопку */
 }
 
 .no-touch .link-hotspot:hover {
