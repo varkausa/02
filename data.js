@@ -344,7 +344,7 @@ var APP_DATA = {
   "name": "02 tour",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": true,
     "viewControlButtons": false
   }
